@@ -17,7 +17,6 @@ function countChange(count, action) {
 }
 
 export default function Counter() {
-  // const [count, setCount] = useState(0)
   const [currentColor, setCurrentColor] = useState(pinkRGB)
   const [ count, dispatch ] = useReducer(countChange, initialCount)
 
